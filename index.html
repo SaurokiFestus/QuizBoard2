@@ -1,0 +1,38 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>QuizBoard2</title>
+    <link rel="stylesheet" href="index.css">
+    <script defer src="index.js"></script>
+</head>
+<body>
+    <div class="container">
+        <p>What is the capital city of Ghana</p>
+        <input type="radio" name="question1" id="correct1">Accra <hr>
+        <input type="radio" name="question1">Nakuru <hr>
+        <input type="radio" name="question1">Nairobi <hr>
+        <input type="radio" name="question1">Lisbon <hr>
+        <button class="next" onclick="next(1)">Next</button>
+    </div>
+
+    <div class="container">
+        <p>What is the capital city of Kenya</p>
+        <input type="radio" name="question2">Accra <hr>
+        <input type="radio" name="question2">Nakuru <hr>
+        <input type="radio" name="question2" id="correct2">Nairobi <hr>
+        <input type="radio" name="question2">Lisbon <hr>
+        <button class="next" onclick="next(2)">Next</button>
+    </div>
+
+    <div class="container">
+        <p>What is the capital city of Portugal</p>
+        <input type="radio" name="question3">Accra <hr>
+        <input type="radio" name="question3">Nakuru <hr>
+        <input type="radio" name="question3">Nairobi <hr>
+        <input type="radio" name="question3" id="correct3">Lisbon <hr>
+        <button class="submit" onclick="result()">Submit</button>
+    </div>
+</body>
+</html>
